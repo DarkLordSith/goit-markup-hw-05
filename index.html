@@ -31,10 +31,10 @@
               <a class="nav-link current" href="./index.html">Studio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Portfolio</a>
+              <a class="nav-link" href="./">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contacts</a>
+              <a class="nav-link" href="./">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -440,7 +440,7 @@
           <p class="footer-sm-text">Social media</p>
           <ul class="footer-sm-list">
             <li class="footer-sm-item">
-              <a href="" class="footer-sm-link">
+              <a href="./index.html" class="footer-sm-link">
                 <svg class="footer-sm-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
@@ -472,10 +472,12 @@
         <div class="footer-subscribe-container">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-subscribe-form">
-            <label for="email" name="user-email" class="footer-form-email">
+            <label for="email" class="footer-form-email">
               <input
                 type="email"
                 name="user-email"
+                required
+                id="subscribe-email"
                 placeholder="E-mail"
                 class="footer-email-input"
               />
