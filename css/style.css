@@ -773,12 +773,13 @@ img {
 }
 
 .privacy-text {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: flex;
 }
 
 .modal-checkbox-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
