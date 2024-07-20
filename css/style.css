@@ -773,7 +773,7 @@ img {
 }
 
 .privacy-text {
-  display: flex;
+  /* display: flex; */
 }
 
 .modal-checkbox-icon {
