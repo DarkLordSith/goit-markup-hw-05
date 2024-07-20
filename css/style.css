@@ -772,11 +772,11 @@ img {
   color: #4d5ae5;
 }
 
-/* .privacy-text {
+.privacy-text {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .modal-checkbox-icon {
   width: 16px;
